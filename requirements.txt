@@ -1,0 +1,3 @@
+blaseball-mike
+Pillow
+requests
