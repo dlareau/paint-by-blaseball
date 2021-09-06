@@ -13,6 +13,9 @@ The image is made up of "cells" each representing a single game update. Every ga
 Here is a close up of a cell and what each part of it means:
 ![An image explaining a single update tile](/explainer.png)
 
+## What is the most cursed part of this?
+I'm glad you asked, when needing to show a player for some part of the cell, they are represented by taking the first six digits of their playerID as a hex code. This is in fact unique across all players.
+
 ## Why does the image look red?
 To better distinguish individual cells when zoomed in, each cell has a red border around it.
 
